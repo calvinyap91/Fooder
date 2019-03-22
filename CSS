@@ -1,0 +1,377 @@
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Thin.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Thin.woff?v=2.137") format("woff");
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-ThinItalic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-ThinItalic.woff?v=2.137") format("woff");
+    font-weight: 100;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Light.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Light.woff?v=2.137") format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-LightItalic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-LightItalic.woff?v=2.137") format("woff");
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Regular.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Regular.woff?v=2.137") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Regular.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Regular.woff?v=2.137") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Italic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Italic.woff?v=2.137") format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Italic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Italic.woff?v=2.137") format("woff");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Medium.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Medium.woff?v=2.137") format("woff");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-MediumItalic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-MediumItalic.woff?v=2.137") format("woff");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Bold.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Bold.woff?v=2.137") format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Bold.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Bold.woff?v=2.137") format("woff");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-BoldItalic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-BoldItalic.woff?v=2.137") format("woff");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-BoldItalic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-BoldItalic.woff?v=2.137") format("woff");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-Black.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-Black.woff?v=2.137") format("woff");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    src: url("../fonts/Roboto-BlackItalic.woff2?v=2.137") format("woff2"),url("../fonts/Roboto-BlackItalic.woff?v=2.137") format("woff");
+    font-weight: 900;
+    font-style: italic
+}
+
+footer {
+    background: #2b2b2b;
+    background: -moz-linear-gradient(top, #2b2b2b 0%, #000 100%);
+    background: -webkit-linear-gradient(top, #2b2b2b 0%, #000 100%);
+    background: linear-gradient(to bottom, #2b2b2b 0%, #000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#000000',GradientType=0 );
+    padding: 32px 16px;
+    color: #bbbbbb;
+    margin: 0
+}
+
+footer .ft-global-wrapper {
+    max-width: 1140px;
+    min-width: 980px;
+    margin: auto;
+    padding: 0
+}
+
+footer .ft-link:before,footer .ft-link:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+footer .ft-brand {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 16px;
+    text-align: center;
+    border-bottom: 1px solid rgba(102,102,102,0.5)
+}
+
+footer .ft-brand ul {
+    text-align: center;
+    padding: 0;
+    margin: 0
+}
+
+footer .ft-brand li {
+    display: inline-block
+}
+
+footer .ft-brand li.product {
+    padding: 0 4px
+}
+
+footer .ft-brand .product-allbet {
+    height: 28px;
+    width: 62px;
+    background-image: url(../images/footer/ft-product-allbet.png)
+}
+
+footer .ft-brand .product-beteast {
+    height: 28px;
+    width: 84px;
+    background-image: url(../images/footer/ft-product-beteast.png)
+}
+
+footer .ft-brand .product-ebet {
+    height: 28px;
+    width: 76px;
+    background-image: url(../images/footer/ft-product-ebet.png)
+}
+
+footer .ft-brand .product-evolutiongaming {
+    height: 28px;
+    width: 76px;
+    background-image: url(../images/footer/ft-product-evolutiongaming.png)
+}
+
+footer .ft-brand .product-ezugi {
+    height: 28px;
+    width: 64px;
+    background-image: url(../images/footer/ft-product-ezugi.png)
+}
+
+footer .ft-brand .product-hogaming {
+    height: 28px;
+    width: 82px;
+    background-image: url(../images/footer/ft-product-hogaming.png)
+}
+
+footer .ft-brand .product-qtech {
+    height: 28px;
+    width: 70px;
+    background-image: url(../images/footer/ft-product-qtech.png)
+}
+
+footer .ft-brand .product-sagaming {
+    height: 28px;
+    width: 70px;
+    background-image: url(../images/footer/ft-product-sagaming.png)
+}
+
+footer .ft-brand .product-spadegaming {
+    height: 28px;
+    width: 110px;
+    background-image: url(../images/footer/ft-product-spadegaming.png)
+}
+
+footer .ft-brand .product-tc {
+    height: 28px;
+    width: 36px;
+    background-image: url(../images/footer/ft-product-tc.png)
+}
+
+footer .ft-brand .product-toptrend {
+    height: 28px;
+    width: 84px;
+    background-image: url(../images/footer/ft-product-toptrend.png)
+}
+
+footer .ft-brand .product-wm {
+    height: 28px;
+    width: 36px;
+    background-image: url(../images/footer/ft-product-wm.png)
+}
+
+footer .ft-brand .product-cmd {
+    height: 28px;
+    width: 100px;
+    background-image: url(../images/footer/ft-product-cmd.png)
+}
+
+footer .ft-link {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 16px
+}
+
+footer .ft-link .link-logo {
+    width: 20%;
+    float: left
+}
+
+footer .ft-link .link-logo .ft-logo {
+    height: 106px;
+    width: 106px;
+    padding: 0;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 144 144'%3e%3ctitle%3eiclub-application_icoasadn%3c/title%3e%3crect width='144' height='144' style='fill:none'/%3e%3ccircle cx='72.18' cy='35.37' r='8.56' style='fill:%23fff'/%3e%3cpath d='M81.69,112.7a47.83,47.83,0,0,1-.12-31.84L72,77.41l-9.49,3.44a47.84,47.84,0,0,1-.07,32A47.76,47.76,0,0,1,42.6,137h59.15A47.78,47.78,0,0,1,81.69,112.7Z' style='fill:%23fff'/%3e%3ccircle cx='115.61' cy='93.04' r='8.56' style='fill:%23fff'/%3e%3ccircle cx='28.57' cy='93.04' r='8.56' style='fill:%23fff'/%3e%3cpath d='M115.43,64.48c-38.93-.63-54.32-18.86-54.32-18.86a15,15,0,1,1,14.32,4.54l16.82,5.72A28.57,28.57,0,1,0,43.61,35.55c0,7.49,2.85,15,7.6,19.4,0,0,18.62,20.25,64.22,23.14,9,.18,15,6.7,15,15a15,15,0,1,1-28.18-7L89.34,81.41a28.57,28.57,0,1,0,26.1-16.94Z' style='fill:%2300aeff'/%3e%3cpath d='M28.57,78.08a135.72,135.72,0,0,0,34.19-6.34C54.4,67.47,49.93,64.09,48,62.5a110.08,110.08,0,0,1-19.48,2,28.55,28.55,0,1,0,26.1,16.94L41.79,86a15,15,0,1,1-28.18,7C13.61,84.78,19.55,78.26,28.57,78.08Z' style='fill:%2300aeff'/%3e%3c/svg%3e")
+}
+
+footer .ft-link .link-wrapper {
+    font-family: "Roboto",Microsoft YaHei,"SimHei","é»‘ä½“",STHeiti,"åŽæ–‡é»‘ä½“",sans-serif;
+    color: #666;
+    font-weight: 400;
+    width: 80%;
+    float: left;
+    text-align: left;
+}
+
+footer .ft-link .link-wrapper .link {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(102,102,102,0.5)
+}
+
+footer .ft-link .link-wrapper .link .list {
+    width: 25%;
+    float: left;
+    font-size: 12px
+}
+
+footer .ft-link .link-wrapper .link .list dt {
+    line-height: 40px;
+    color: #fff;
+    font-weight: 400
+}
+
+footer .ft-link .link-wrapper .link .list dd {
+    line-height: 21px;
+    margin-left: 8px;
+    margin-bottom: 0px
+}
+
+footer .ft-link .link-wrapper .link .list dd a {
+    color: #aaa;
+    display: inline-block;
+    text-decoration: none
+}
+
+footer .ft-link .link-wrapper .link .list dd a:hover {
+    color: #00aeff;
+    text-decoration: none
+}
+
+footer .ft-link .link-wrapper .link .list .email {
+    color: #aaa
+}
+
+footer .ft-link .link-wrapper .link .list .wechat {
+    color: #aaa
+}
+
+footer .ft-link .link-wrapper .link:before,footer .ft-link .link-wrapper .link:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+footer .ft-link .link-wrapper .footer-about {
+    width: 100%;
+    margin-top: 16px
+}
+
+footer .ft-link .link-wrapper .footer-about h6 {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: justify;
+    margin: 0;
+    padding: 0
+}
+
+footer .ft-link .link-wrapper .footer-copyright {
+    width: 100%;
+    font-size: 11px;
+    margin-top: 32px
+}
+
+footer .ft-link .link-wrapper .footer-copyright .copyright {
+    width: 50%;
+    float: left
+}
+
+footer .ft-link .link-wrapper .footer-copyright .browser-support {
+    width: 320px;
+    float: right;
+    line-height: 12px
+}
+
+.ui-icon-adobe-flash:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 2px 8px 0 0;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3e%3cpath d='M3.5,0h17A3.5,3.5,0,0,1,24,3.5v17A3.5,3.5,0,0,1,20.5,24H3.5A3.5,3.5,0,0,1,0,20.5V3.5A3.5,3.5,0,0,1,3.5,0Z' style='fill:%23dc0000'/%3e%3cpath d='M17.5,4c-4.7,0-6,3.66-7,6.33-.19.53-.36,1.07-.52,1.59C9.21,14.52,8.65,16,6.5,16a.5.5,0,0,0-.5.5v3a.5.5,0,0,0,.5.5c3.4,0,6-3,6.88-6H16.5a.5.5,0,0,0,.5-.5v-3a.5.5,0,0,0-.5-.5h-2l0-.1c.57-1.27.85-1.9,2.93-1.9a.5.5,0,0,0,.5-.5v-3A.5.5,0,0,0,17.5,4Z' style='fill:%23fafafa'/%3e%3c/svg%3e");
+    background-repeat: no-repeat
+}
+
+.ui-icon-facebook:before {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin: 0px 4px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 42 42'%3e%3cpath d='M42,21A21,21,0,1,0,21,42,21,21,0,0,0,42,21ZM1.91,21A19.09,19.09,0,1,1,21,40.09,19.09,19.09,0,0,1,1.91,21Z' style='fill:%23aaa'/%3e%3cpath d='M21.81,33.12V21h4l.63-4H21.81V15c0-1.05.34-2.05,1.84-2.05h3v-4H22.39c-3.59,0-4.57,2.37-4.57,5.64V17H15.36v4h2.46V33.12Z' style='fill:%23aaa'/%3e%3c/svg%3e");
+    background-repeat: no-repeat
+}
+
+.ui-icon-wechat:before {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin: 0px 8px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 42 42'%3e%3cpath d='M42,21A21,21,0,1,0,21,42,21,21,0,0,0,42,21ZM1.91,21A19.09,19.09,0,1,1,21,40.09,19.09,19.09,0,0,1,1.91,21Z' style='fill:%23aaa'/%3e%3cpath d='M32.09,29.78a6.54,6.54,0,0,0,3-5.26c0-3.4-3-6.24-7-6.9v-.14c0-4.85-4.73-8.79-10.55-8.79S6.93,12.63,6.93,17.48a8.22,8.22,0,0,0,3.62,6.63l-.89,1.77a.9.9,0,0,0,.15,1,.88.88,0,0,0,.64.28.84.84,0,0,0,.34-.08l3.11-1.33a12.47,12.47,0,0,0,3.85.51c1.09,3.44,5.3,5.9,10.12,5.17l4.21,1.81A.88.88,0,0,0,33.22,32ZM13.51,24l-1.2.51.16-.31a.89.89,0,0,0-.32-1.14,6.69,6.69,0,0,1-3.46-5.59c0-3.88,3.94-7,8.79-7s8.8,3.15,8.8,7c-4.85,0-8.79,3.15-8.8,7A10.66,10.66,0,0,1,14.14,24,.86.86,0,0,0,13.51,24Zm17,4.69a.88.88,0,0,0-.35,1.15l.41.83-2.25-1a1,1,0,0,0-.34-.07h-.15a8.42,8.42,0,0,1-1.55.14c-3.88,0-7-2.36-7-5.27s3.16-5.28,7-5.28c.23,0,.45,0,.68,0h.13c3.5.3,6.22,2.53,6.22,5.24A5,5,0,0,1,30.51,28.7Z' style='fill:%23aaa'/%3e%3cpath d='M14,14h0a.87.87,0,0,0-.87.87.89.89,0,0,0,.89.88A.88.88,0,1,0,14,14Z' style='fill:%23aaa'/%3e%3cpath d='M21,15.72A.88.88,0,0,0,21,14h0a.86.86,0,0,0-.87.87A.88.88,0,0,0,21,15.72Z' style='fill:%23aaa'/%3e%3cpath d='M23.67,21.88h0a.87.87,0,0,0-.88.88.9.9,0,0,0,.89.88.88.88,0,1,0,0-1.76Z' style='fill:%23aaa'/%3e%3cpath d='M29,21.88h0a.87.87,0,0,0-.87.88.89.89,0,0,0,1.77,0A.88.88,0,0,0,29,21.88Z' style='fill:%23aaa'/%3e%3c/svg%3e");
+    background-repeat: no-repeat
+}
